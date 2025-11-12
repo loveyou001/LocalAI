@@ -130,6 +130,11 @@ FILE:
 			continue
 		}
 
+		// Skip dotfiles
+		if strings.HasPrefix(file.Name(), ".") {
+			continue
+		}
+
 		models = append(models, file.Name())
 	}
 

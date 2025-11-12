@@ -65,6 +65,16 @@ var _ = Describe("ModelLoader", func() {
 			Expect(files).To(ContainElement("test.model"))
 			Expect(files).ToNot(ContainElement("README.md"))
 		})
+
+		It("should not list dot files", func() {
+			os.Create(filepath.Join(modelPath, ".foobar"))
+			os.Create(filepath.Join(modelPath, "test.model"))
+
+			files, err := modelLoader.ListFilesInModelPath()
+			Expect(err).To(BeNil())
+			Expect(files).To(ContainElement("test.model"))
+			Expect(files).ToNot(ContainElement(".foobar"))
+		})
 	})
 
 	Context("LoadModel", func() {
