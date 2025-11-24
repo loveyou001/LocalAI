@@ -155,6 +155,11 @@ defaultContentLanguage = 'en'
     title = "LocalAI"
     languageName = "English"
     weight = 10
+  [languages.th]
+    title = "LocalAI"
+    languageName = "ไทย"
+    contentDir = "content/th"
+    weight = 40
 #  [languages.fr]
 #    title = "LocalAI documentation"
 #    languageName = "Français"
