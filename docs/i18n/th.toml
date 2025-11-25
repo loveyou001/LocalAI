@@ -1,0 +1,38 @@
+[lang_select_title]
+    other = "เลือกภาษาของคุณ"
+
+[search_title]
+    other = "ค้นหา"
+
+[search_navigate]
+    other = "เพื่อนำทาง"
+
+[search_select]
+    other = "เพื่อเลือก"
+
+[search_close]
+    other = "เพื่อปิด"
+
+[search_cancel]
+    other = "ยกเลิก"
+
+[search_no_results]
+    other = "ไม่พบผลลัพธ์สำหรับ"
+
+[feedback_yes]
+    other = "ใช่"
+
+[feedback_no]
+    other = "ไม่"
+
+[feedback_helpful]
+    other = "หน้านี้มีประโยชน์หรือไม่?"
+
+[feedback_submit]
+    other = "ส่ง"
+
+[enable_light_mode]
+    other = "เปิดใช้งานโหมดสว่าง"
+
+[enable_dark_mode]
+    other = "เปิดใช้งานโหมดมืด"
